@@ -8,41 +8,34 @@ public class Nodo implements Accion {
     }
 
     public int mover_Derecha() {
-        // Lógica de mover derecha (puede ser ajustar referencias en un árbol binario)
-        return numero + 1;  // Ejemplo simple
+        return numero + 1;
     }
 
     public int mover_Izquierda() {
-        // Lógica de mover izquierda (puede ser ajustar referencias en un árbol binario)
-        return numero - 1;  // Ejemplo simple
+        return numero - 1;
     }
 
     public int cambiar_Raiz() {
-        // Lógica para cambiar la raíz (puede involucrar reasignar nodos en un árbol binario)
-        return numero;  // Ejemplo simple
+        return numero;
     }
 
     @Override
     public int agregar_Nodo() {
-        // Implementar lógica para agregar nodo
         return 0;
     }
 
     @Override
     public int eliminar_Nodo() {
-        // Implementar lógica para eliminar nodo
         return 0;
     }
 
     @Override
     public int insertar_Nodo() {
-        // Implementar lógica para insertar nodo
         return 0;
     }
 
     @Override
     public int buscar_Nodo() {
-        // Implementar lógica para buscar nodo
         return numero;
     }
 
@@ -54,3 +47,4 @@ public class Nodo implements Accion {
         this.numero = numero;
     }
 }
+

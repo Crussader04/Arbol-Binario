@@ -6,7 +6,6 @@ public class ListaEnlazada {
     }
 
     public void avanzar_Nodo() {
-        // Lógica para avanzar nodo (por ejemplo, recorrer la lista)
         if (head != null) {
             head = head.siguiente;
         }
@@ -24,3 +23,4 @@ public class ListaEnlazada {
         }
     }
 }
+

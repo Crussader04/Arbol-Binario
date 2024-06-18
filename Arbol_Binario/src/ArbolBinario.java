@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ArbolBinario {
     private int altura;
-    private String tipo;  // Usar String como ejemplo, Tipo_ArbolBinario no está definido
+    private String tipo;
     private List<Nodo> nodoList;
 
     public ArbolBinario() {
@@ -11,23 +11,20 @@ public class ArbolBinario {
     }
 
     public void recorrido_Inorden() {
-        // Implementar recorrido inorden
         for (Nodo nodo : nodoList) {
-            System.out.println(nodo.getNumero() + " ");
+            System.out.print(nodo.getNumero() + " ");
         }
     }
 
     public void recorrido_Postorden() {
-        // Implementar recorrido postorden
         for (Nodo nodo : nodoList) {
-            System.out.println(nodo.getNumero() + " ");
+            System.out.print(nodo.getNumero() + " ");
         }
     }
 
     public void recorrido_Preorden() {
-        // Implementar recorrido preorden
         for (Nodo nodo : nodoList) {
-            System.out.println(nodo.getNumero() + " ");
+            System.out.print(nodo.getNumero() + " ");
         }
     }
 
@@ -43,3 +40,4 @@ public class ArbolBinario {
         return nodoList;
     }
 }
+
